@@ -121,6 +121,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Security\" />
+    <Folder Include="BackUps" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\t.sql">
@@ -141,5 +142,8 @@
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DbPro.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BackUps\TextFile1.txt" />
   </ItemGroup>
 </Project>
